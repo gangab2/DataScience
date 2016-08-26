@@ -33,15 +33,15 @@ print df
 df['Alcohol'] = df['Alcohol'].astype(float)
 df['Tobacco'] = df['Tobacco'].astype(float)
 
-print df['Alcohol'].mean()
-print df['Tobacco'].mean()
-print df['Alcohol'].median()
-print df['Tobacco'].median()
+print "The range for Alcohol and Tobacco dataset is Mean %f ..." %df['Alcohol'].mean()
+print "The range for Alcohol and Tobacco dataset is Mean %f ..." %df['Tobacco'].mean()
+print "The range for Alcohol and Tobacco dataset is Meadian %f..." %df['Alcohol'].median()
+print "The range for Alcohol and Tobacco dataset is Meadian %f..." %df['Tobacco'].median()
 
 max(df['Alcohol']) - min(df['Alcohol'])
-print df['Alcohol'].std()
-print df['Alcohol'].var()
+print "The range for Alcohol and Tobacco dataset is Standard Deviation %f..." %df['Alcohol'].std()
+print "The range for Alcohol and Tobacco dataset is Standard Variance %f..." %df['Alcohol'].var()
 
 max(df['Tobacco']) - min(df['Tobacco'])
-print df['Tobacco'].std()
-print df['Tobacco'].var()
+print "The range for Alcohol and Tobacco dataset is Standard Deviation %f..." %df['Tobacco'].std()
+print "The range for Alcohol and Tobacco dataset is Standard Variance %f..." %df['Tobacco'].var()
