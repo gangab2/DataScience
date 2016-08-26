@@ -37,3 +37,11 @@ print df['Alcohol'].mean()
 print df['Tobacco'].mean()
 print df['Alcohol'].median()
 print df['Tobacco'].median()
+
+max(df['Alcohol']) - min(df['Alcohol'])
+print df['Alcohol'].std()
+print df['Alcohol'].var()
+
+max(df['Tobacco']) - min(df['Tobacco'])
+print df['Tobacco'].std()
+print df['Tobacco'].var()
